@@ -1,34 +1,7 @@
-@media screen and (max-width: 961px) {
-    
-    form h2 {
-        text-align: center;   
-        font-size: 200%;
-    }
-    section>H2 {
-        font-size: 150%;      
-    }
-    h2 span {
-        font-size: 100%;
-    }
-
-    .img {
-        flex-direction: column;
-    }
-    
-    .img article {
-        width: 80%;
-        margin-top: 2%;
-    }
-    
-
-
-}
 html {
     width: 96%;
     height: auto;
-    margin: auto;
-
-    
+    margin: auto;  
 }
 
 h2 span {
@@ -114,10 +87,47 @@ textarea {
 }
 
 footer {
+    width: 100%;
     margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: #363535;
     color: white;
+}
+
+
+
+
+
+@media screen and (max-width: 961px) {
+    
+    form h2 {
+        text-align: center;   
+        font-size: 200%;
+    }
+    section>H2 {
+        font-size: 150%;      
+    }
+    h2 span {
+        font-size: 100%;
+    }
+
+    .img {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .img>article {
+        width: 80%;
+        margin-top: 2%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;       
+        justify-content: flex-start;
+    }
+
+    
 }
