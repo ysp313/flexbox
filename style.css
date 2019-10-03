@@ -103,7 +103,7 @@ footer {
 
 
 
-@media  screen and (max-width: 640px) {
+@media  screen and (min-width: 340px) and (max-width: 961px) {
     
     form h2 {
         text-align: center;   
